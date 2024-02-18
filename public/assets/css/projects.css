@@ -1,0 +1,156 @@
+.full_project {
+    margin-top: 50px;
+}
+
+.project_title {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.slider_projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project_card {
+    display: block;
+    background-color: #2A2A2A;
+    color: #fff;
+    max-width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.project_card > *:not(.image, .tech) {
+    padding: 0 20px 0 20px;
+}
+
+.image {
+    height: 250px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    min-height: 100%;
+    transition: 0.6s;
+}
+
+.card_title {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.card_desc {
+    margin-top: 10px;
+    color: #ffffff8e;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.tech {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tech_list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #464646;
+    border-radius: 8px 0 0 0;
+    padding-left: 10px;
+}
+
+.bitrix-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-size: cover;
+    background-image: url(../images/bitrix.png);
+}
+
+.vue-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-size: cover;
+    background-image: url(../images/vue.png);
+}
+
+.php-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-size: cover;
+    background-image: url(../images/php.png);
+}
+
+.js-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-size: cover;
+    background-image: url(../images/js.png);
+}
+
+.swift-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-size: cover;
+    background-image: url(../images/swift.png);
+}
+
+.java-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-size: cover;
+    background-color: #fff;
+    background-image: url(../images/java.png);
+}
+
+.laravel-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-size: cover;
+    background-image: url(../images/laravel.png);
+}
+
+.python-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-size: cover;
+    background-image: url(../images/py.png);
+}
+
+.node-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-size: cover;
+    background-image: url(../images/node.png);
+}
+
+.slider_projects {
+    flex-wrap: wrap;
+}
+
+.slider_projects > a {
+    margin-bottom: 50px;
+}
+
+.card_desc {
+    min-height: 37px;
+}
+
+.project_card:hover img {
+    transform: scale(1.1);
+}
