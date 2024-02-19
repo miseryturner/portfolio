@@ -16,7 +16,7 @@
             @foreach ($projects_full as $project)
                 <a target="_blank" href="{{$project->link}}" class="project_card">
                     <div class="image">
-                        <img src="{{$project->image}}" alt="">
+                        <img src="/portfolio/public{{$project->image}}" alt="">
                     </div>
                     <div class="card_title">
                         {{$project->title}}
@@ -46,7 +46,7 @@
             @foreach ($projects_tasks as $project)
                 <a target="_blank" href="{{$project->link}}" class="project_card">
                     <div class="image">
-                        <img src="{{$project->image}}" alt="">
+                        <img src="/portfolio/public{{$project->image}}" alt="">
                     </div>
                     <div class="card_title">
                         {{$project->title}}

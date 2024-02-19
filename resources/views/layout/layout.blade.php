@@ -7,7 +7,7 @@
 
     <title>@yield('title') | {{ config('app.name') }}</title>
     
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/portfolio/public/assets/css/style.css">
 </head>
 
 <body>
