@@ -9,6 +9,10 @@
         </div>
     </div>
 </section>
+<section class="info">
+    <div class="container">
+    </div>
+</section>
 <section class="full_project">
     <div class="container">
         <h2 class="project_title">Созданные с нуля проекты</h2>
